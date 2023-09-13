@@ -1,7 +1,16 @@
+import { Button } from "./components/ui/button";
 
-export function App() {
-
+export const App: React.FC = () => {
   return (
-    <h1>Hello world</h1>
-  )
-}
+    <div>
+      <div>
+        <h1>upload.ai</h1>
+
+        <div>
+          <span>Desenvolvido com 🩷</span>
+          <Button></Button>
+        </div>
+      </div>
+    </div>
+  );
+};
